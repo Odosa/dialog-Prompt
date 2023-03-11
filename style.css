@@ -1,0 +1,87 @@
+.dialog{
+    background-color: rgb(8, 215, 215);
+    width: 22%;
+    height: 232px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+    z-index: 9;
+}
+
+.dialog h3{
+    color: white;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    margin-bottom: 3px;
+    cursor: move;
+    z-index: 10;
+}
+
+.head h3{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 3px;
+    height: 20px;
+}
+
+.exit{
+    margin-top: 10px;
+    margin-left: 140px;
+    height: 20px;
+}
+
+.message{
+    width: 93%;
+    height: 140px;
+    color: white;
+    margin: auto;
+    margin-top: 0px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: black;
+    margin-bottom: 1px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.message h3{
+    margin: 10px 0 0 15px;
+}
+
+.message span{
+    margin-left: 70px;
+}
+
+.message p{
+    margin-left: 15px;
+}
+
+.btn{
+    margin-left: 110px;
+    width: 100px;
+    margin-bottom: 3px;
+    border: 0;
+    color: rgb(28, 180, 180);
+}
+
+.bottom{
+    height: 20px;
+    width: 93%;
+    margin: auto;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(5, 207, 207);
+    cursor: move;
+    z-index: 10;
+}
+
+.bottom span{
+    margin-left: 15px;
+}
+
